@@ -90,4 +90,8 @@ $ yay -S composer
 
 ```
 $ composer create-project laravel/laravel my_first-app
+$ cd my_first-app
+$ php artisan serve
 ```
+
+8- Open browser and connect http://127.0.0.1:8000 and it should work
