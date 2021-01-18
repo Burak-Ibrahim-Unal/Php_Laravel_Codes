@@ -19,10 +19,35 @@ Project is created with:
 
 	
 ## Setup
-To run this project, install it locally using npm:
+Installation for Arch based Systems:
+1- First update system and install base-devel,git and yay
+
+Open terminal
+```
+$ sudo pacman -Syu
+$ sudo pacman -S base-devel
+$ sudo pacman -S git
+$ cd /home/yourusername (for my case it is "cd /home/burak")
+$ mkdir Setups
+$ cd Setups
+$ git clone https://aur.archlinux.org/yay.git
+$ cd yay
+$ makepkg -si
+```
+
+2- Download Xampp latest from main website https://www.apachefriends.org/tr/index.html
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ cd Downloads
+$ ls
 ```
+Find Xampp setup file. In my case it is "xampp-linux-x64-8.0.0-3-installer.run"
+```
+$ chmod +x xampp-linux-x64-8.0.0-3-installer.run 
+$ sudo ./xampp-linux-x64-8.0.0-3-installer.run
+$ cd Setups
+$ git clone https://aur.archlinux.org/yay.git
+$ cd yay
+$ makepkg -si
+```
+
