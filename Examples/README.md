@@ -55,10 +55,6 @@ $ sudo ./xampp-linux-x64-8.0.0-3-installer.run
 $ sudo /opt/lampp/lampp start
 ```
 
-Than start all services. If you close service start screen,than start xampp manually on terminal
-```
-$ sudo /opt/lampp/lampp start
-```
 
 5- If you have port problem,change port (install nano or vim for text editor,in my case i will use nano). If Mysql starts correctly,skip this step...
 Stop Xampp
