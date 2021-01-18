@@ -5,13 +5,18 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This projects are examples about Php Laravel
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* Xampp version: 8.0
+* Laravel: 8.x
+* Composer version: 2.0.8-1
+* Visual Studio Code: 1.52.1
+* Nodejs version: 15.6.0
+* Npm version: 6.4.11
+
+
 	
 ## Setup
 To run this project, install it locally using npm:
