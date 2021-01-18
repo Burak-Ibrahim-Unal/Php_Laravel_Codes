@@ -86,7 +86,7 @@ $ yay -S composer
 
 ```
 
-7- Finally install first Laravel App.Create folder for your codes and open terminal:
+7- Finally install first Laravel App.Create folder for your codes and open terminal in it:
 
 ```
 $ composer create-project laravel/laravel my_first-app
