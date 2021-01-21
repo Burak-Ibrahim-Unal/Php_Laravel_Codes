@@ -100,12 +100,12 @@ $ php artisan serve
 
 My Mysql Db Setup:
 
-* DB_CONNECTION=mysql
-* DB_HOST=127.0.0.1
-* DB_PORT=3307
-* DB_DATABASE=Email_2020
-* DB_USERNAME=root
-* DB_PASSWORD=
+- DB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3307
+- DB_DATABASE=Email_2020
+- DB_USERNAME=root
+- DB_PASSWORD=
 
 
 MyMailSender Settings:
