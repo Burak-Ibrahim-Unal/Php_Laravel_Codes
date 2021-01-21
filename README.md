@@ -124,8 +124,9 @@ $ php artisan serve
 $ php artisan migrate
 ```
 
-10 - Open terminal on your project folder and type this code for show email send process:
+10 - Open terminal on your project folder( and type this code for show email send process:
 ```
+$ cd 'project folder'
 $ php artisan queue:listen
 ```
 
