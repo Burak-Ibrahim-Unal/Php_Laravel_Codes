@@ -94,4 +94,48 @@ $ cd my_first-app
 $ php artisan serve
 ```
 
-8- Open browser and connect http://127.0.0.1:8000 and it should work
+8- Open browser and connect http://127.0.0.1:8000 and it should work. Than:
+
+9- For my project,clone my project and open project folder with your prefered ide and type terminal this code to migrate tables. Please dont forget to change .env file for your db setup.You know this informations are personal and you must create with your own info.
+
+My Mysql Db Setup:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3307
+DB_DATABASE=Email_2020
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+MyMailSender Settings:
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=yourmailadress
+MAIL_PASSWORD=yourmailpassword
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=yourmailadress
+MAIL_FROM_NAME="${APP_NAME}"
+QUEUE_CONNECTION=database
+
+```
+$ php artisan migrate
+```
+
+10 - Open terminal on your project folder and type this code for show email send process:
+```
+$ php artisan queue:listen
+```
+
+11- Before make your project alive,dont forget to clear cache.Than start the project.
+```
+$ php artisan config:clear
+php artisan serve
+```
+
+12- In this case, route is http://localhost:8000/email-test
+
+
+Note: Dont forget to allow permissions "Less secure app access" on your Google account security setting.
