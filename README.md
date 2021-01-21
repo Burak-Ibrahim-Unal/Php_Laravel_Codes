@@ -96,7 +96,7 @@ $ php artisan serve
 
 8- Open browser and connect http://127.0.0.1:8000 and it should work. Than:
 
-9- For my project,clone my project and open project folder with your prefered ide and type terminal this code to migrate tables. Please dont forget to change .env file for your db setup.You know this informations are personal and you must create with your own info.
+9- For my project,clone my project and open project folder with your prefered ide and type terminal this code to migrate tables. Please dont forget to change .env file and dont forget to create your DB and make your db settings on .env file.You know this informations are personal and you must create with your own info.
 
 ```
 $ php artisan migrate
