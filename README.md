@@ -98,6 +98,12 @@ $ php artisan serve
 
 9- For my project,clone my project and open project folder with your prefered ide and type terminal this code to migrate tables. Please dont forget to change .env file for your db setup.You know this informations are personal and you must create with your own info.
 
+```
+$ php artisan migrate
+```
+
+Note: This is ".env" configurations...
+
 ## My Mysql Db Setup:
 
 - DB_CONNECTION=mysql
@@ -120,11 +126,9 @@ $ php artisan serve
 - MAIL_FROM_NAME="${APP_NAME}"
 - QUEUE_CONNECTION=database
 
-```
-$ php artisan migrate
-```
 
-10 - Open terminal on your project folder( and type this code for show email send process:
+
+10 - Open terminal on your project folder and type this code for show email send process:
 ```
 $ cd 'project folder'
 $ php artisan queue:listen
@@ -133,10 +137,10 @@ $ php artisan queue:listen
 11- Before make your project alive,dont forget to clear cache.Than start the project.
 ```
 $ php artisan config:clear
-php artisan serve
+$ php artisan serve
 ```
 
 12- In this case, route is http://localhost:8000/email-test
 
 
-Note: Dont forget to allow permissions "Less secure app access" on your Google account security setting.
+Note: Dont forget to allow permissions "Less secure app access" on your Google account security setting if you use your Google Account or make your main domain security settings what you will use.
