@@ -108,8 +108,8 @@ Note: This is ".env" configurations...
 
 - DB_CONNECTION=mysql
 - DB_HOST=127.0.0.1
-- DB_PORT=3307
-- DB_DATABASE=Email_2020
+- DB_PORT=3307              // (This is for my case.Default is 3306)
+- DB_DATABASE=Email_2020    // (This is for my case)
 - DB_USERNAME=root
 - DB_PASSWORD=
 
