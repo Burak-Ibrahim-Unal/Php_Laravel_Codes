@@ -98,7 +98,7 @@ $ php artisan serve
 
 9- For my project,clone my project and open project folder with your prefered ide and type terminal this code to migrate tables. Please dont forget to change .env file for your db setup.You know this informations are personal and you must create with your own info.
 
-####My Mysql Db Setup:
+## My Mysql Db Setup:
 
 - DB_CONNECTION=mysql
 - DB_HOST=127.0.0.1
@@ -108,7 +108,7 @@ $ php artisan serve
 - DB_PASSWORD=
 
 
-####MyMailSender Settings:
+## MyMailSender Settings:
 
 - MAIL_MAILER=smtp
 - MAIL_HOST=smtp.gmail.com
