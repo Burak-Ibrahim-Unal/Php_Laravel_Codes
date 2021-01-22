@@ -1,146 +1,62 @@
-# Php_Laravel_Codes
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-## General info
-This Test folder contains test files and code examples and Ready-to-use projects+database files are stored in Projects Folder.
-	
-## Technologies
-Project is created with:
-* Xampp version: 8.0.0-3
-* Laravel: 8.12
-* Composer version: 2.0.8-1
-* Visual Studio Code: 1.52.1
-* Nodejs version: 15.6.0
-* Npm version: 6.4.11
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
+## About Laravel
 
-	
-## Setup
-Installation for Arch based Systems:
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-First update system and install base-devel,git and yay
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-1- Open terminal
-```
-$ sudo pacman -Syu
-$ sudo pacman -S base-devel
-$ sudo pacman -S git
-$ cd /home/yourusername (for my case it is "cd /home/burak")
-$ mkdir Setups
-$ cd Setups
-$ git clone https://aur.archlinux.org/yay.git
-$ cd yay
-$ makepkg -si
-```
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-2- Download Xampp latest from main website https://www.apachefriends.org/tr/index.html
+## Learning Laravel
 
-```
-$ cd Downloads
-$ ls
-```
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-3 Find Xampp setup file. In my case it is "xampp-linux-x64-8.0.0-3-installer.run"
-```
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-$ chmod +x xampp-linux-x64-8.0.0-3-installer.run 
-$ sudo ./xampp-linux-x64-8.0.0-3-installer.run
-```
+## Laravel Sponsors
 
-4- Than start all services. If you close service start screen,than start xampp manually on terminal
-```
-$ sudo /opt/lampp/lampp start
-```
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
+### Premium Partners
 
-5- If you have port problem,change port (install nano or vim for text editor,in my case i will use nano). If Mysql starts correctly,skip this step...
-Stop Xampp
-```
-$ sudo /opt/lampp/lampp stop
-```
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/)**
+- **[OP.GG](https://op.gg)**
 
-5a. Open XAMPP Installation Directory
+## Contributing
 
-5b. Open "etc" Folder
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-5c. Find "my.cnf" file and open it in any text editor
+## Code of Conduct
 
-5d. Change Port from 3306 to 3307 (if you have installed skype or other apps)
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-5e. Add "innodb_force_recovery=1" under "myisam_sort_buffer_size=8M"
+## Security Vulnerabilities
 
-5f. Save "my.cnf" file and start xampp again
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-```
-$ sudo /opt/lampp/lampp start
-```
+## License
 
-6- Install necessary applications
-```
-$ yay -S nodejs
-$ yay -S npm
-$ yay -S composer
-
-```
-
-7- Finally install first Laravel App.Create folder for your codes and open terminal in it:
-
-```
-$ composer create-project laravel/laravel my_first-app
-$ cd my_first-app
-$ php artisan serve
-```
-
-8- Open browser and connect http://127.0.0.1:8000 and it should work. Than:
-
-9- For my project,clone my project and open project folder with your prefered ide and type terminal this code to migrate tables. Please dont forget to change .env file and dont forget to create your DB and make your db settings on .env file.You know this informations are personal and you must create with your own info.
-
-```
-$ php artisan migrate
-```
-
-Note: This is ".env" configurations...
-
-## My Mysql Db Setup:
-
-- DB_CONNECTION=mysql
-- DB_HOST=127.0.0.1
-- DB_PORT=3307              // (This is for my case.Default is 3306)
-- DB_DATABASE=Email_2020    // (This is for my case)
-- DB_USERNAME=root
-- DB_PASSWORD=
-
-
-## MyMailSender Settings:
-
-- MAIL_MAILER=smtp
-- MAIL_HOST=smtp.gmail.com
-- MAIL_PORT=587
-- MAIL_USERNAME=yourmailadress
-- MAIL_PASSWORD=yourmailpassword
-- MAIL_ENCRYPTION=tls
-- MAIL_FROM_ADDRESS=yourmailadress
-- MAIL_FROM_NAME="${APP_NAME}"
-- QUEUE_CONNECTION=database
-
-
-
-10 - Open terminal on your project folder and type this code for show email send process:
-```
-$ cd 'project folder'
-$ php artisan queue:listen
-```
-
-11- Before make your project alive,dont forget to clear cache.Than start the project.
-```
-$ php artisan config:clear
-$ php artisan serve
-```
-
-12- In this case, route is http://localhost:8000/email-test
-
-
-Note: Dont forget to allow permissions "Less secure app access" on your Google account security setting if you use your Google Account or make your main domain security settings what you will use.
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
