@@ -8,7 +8,7 @@
 </p>
 
 ## About Codes
-file:///home/burak/Desktop/Masaustu/Kodlar/Php_Laravel/Test/example-app/README.md
+This Test folder contains test files and code examples and Ready-to-use projects+database files are stored in Projects Folder.
 
 ## About Laravel
 

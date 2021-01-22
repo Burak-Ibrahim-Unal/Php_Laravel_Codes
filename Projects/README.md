@@ -6,7 +6,7 @@
 
 ## General info
 This Test folder contains test files and code examples and Ready-to-use projects+database files are stored in Projects Folder.
-	
+
 ## Technologies
 Project is created with:
 * Xampp version: 8.0.0-3
