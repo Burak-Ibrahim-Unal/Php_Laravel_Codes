@@ -10,7 +10,7 @@ This Test folder contains test files and code examples and Ready-to-use projects
 ## Technologies
 Project is created with:
 * Xampp version: 8.0.0-3
-* Laravel: 8.12
+* Laravel: 8.12 (Version 7 is same)
 * Composer version: 2.0.8-1
 * Visual Studio Code: 1.52.1
 * Nodejs version: 15.6.0
