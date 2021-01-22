@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 ## General info
-This examples folder contains test files and Ready-to-use projects+database files are stored in Project Folder.
+This examples folder contains test files and Ready-to-use projects+database files are stored in Projects Folder.
 	
 ## Technologies
 Project is created with:
