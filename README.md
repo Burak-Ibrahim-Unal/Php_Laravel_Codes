@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 ## General info
-This projects are examples about Php Laravel
+This examples folder contains test files and Ready-to-use projects+database files are stored in Project Folder.
 	
 ## Technologies
 Project is created with:
